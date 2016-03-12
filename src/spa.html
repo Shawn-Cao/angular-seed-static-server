@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app="yourComponent">
+<head>
+  <title ng-bind="title"></title>
+  <!-- TODO: replace title with app name -->
+  @framework@include('head-resource.res')
+</head>
+
+<body >
+  <!-- TODO: could replace ng-app with app name -->
+
+  <div ui-view></div>
+
+  @framework@include('body-resource.res')
+  @components@include('components.res')
+</body>
+</html>

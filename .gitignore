@@ -1,0 +1,25 @@
+.class
+bin/
+out/
+.gradle/
+.project
+.settings/
+.classpath
+.metadata
+.idea
+*.iml
+build/
+
+# Angular Client Side #
+## generated .html files ##
+
+
+## Resources pulled (dev and build resources) ##
+/bower_components
+/node_modules
+
+## generated files ##
+/minified
+
+## development tool buzz ##
+npm-debug.log
